@@ -1,129 +1,100 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Game Developer Portfolio</title>
-    <link rel="stylesheet" href="css/style.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<title></title>
 </head>
 <body>
-    <header>
-        <nav>
-            <div class="logo">Nemodev</div>
-            <ul>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+
+	<header>
+        <h1>Портфолио. Ларин Никита</h1>
+        <p>Проекты, над которыми я работал и работаю</p>
     </header>
 
-    <section class="hero">
-        <div class="hero-content">
-            <h1>Game Developer</h1>
-            <p>Ларин Никита</p>
-        </div>
-    </section>
+    <main>
+    	<div class="steam-widget">
+    		<iframe src="https://store.steampowered.com/widget/3505700/" frameborder="0" width="646" height="190"></iframe>
+		</div>
 
-    <section id="projects" class="projects">
-        <h2>Мои игры</h2>
-
-        <div class="project-grid">
-            
-            <a href="https://store.steampowered.com/app/3048670/100_Dogs/">
-            <div class="project-card">
-                <img src="images/dogs.jpg" alt="100 Dogs">
-                <div class="project-info">
-                    <h3>100 Dogs</h3>
-                    <p>Проверьте свою наблюдательность в погоне за 100 неудачливыми искателями приключений.</p>
-                    <div class="tags">
-                        <span>Unity 3D</span>
-                        <span>C#</span>
-                    </div>
-                </div>
-            </div>
-            </a>
-
-        	<a href="#">
-            <div class="project-card">
-                <img src="images/magnit.jpg" alt="Space Explorer">
-                <div class="project-info">
-                    <h3>Anti-Acratic Formation</h3>
-                    <p>Игра по одноименному хоррор проекту (Магнитошахтинская область)</p>
-                    <div class="tags">
-                        <span>Unity 3D</span>
-                        <span>C#</span>
-                    </div>
-                </div>
-            </div>
-        	</a>
-
-        	
+		<div class="steam-widget">
+    		<iframe src="https://store.steampowered.com/widget/3048670/" frameborder="0" width="646" height="190"></iframe>
+		</div>
 
 
-        	<!-- <a href="https://store.steampowered.com/app/2727700/Real/">
-            <div class="project-card">
-                <img src="https://images.unsplash.com/photo-1511512578047-dfb367046420?auto=format&fit=crop&q=80&w=1200" alt="Mystic Realms">
-                <div class="project-info">
-                    <h3>Real</h3>
-                    <p>"Real" is a unique immersion into the world of minimalism and moral challenges.</p>
-                    <div class="tags">
-                        <span>Unity 3D</span>
-                        <span>С#</span>
-                    </div>
-                </div>
-            </div>
-        	</a> -->
-        </div>
-    </section>
+<div class="project" onclick="toggleProject(this)">
+    <img src="images/hh1.png" alt="Heretic" />
+    <div class="project-info">
+        <h2>Heretic. 2D-3D карточный рогалик</h2>
+        <p>Карточный рогалик, с элементами 3Д механик</p>
+    </div>
+    <div class="project-details">
+        <h4>Дополнительные скриншоты:</h4>
+        <img src="images/hh1.png" alt="Скриншот 1" style="width: 100%; max-width: 600px;">
+        <img src="images/hh2.png" alt="Скриншот 2" style="width: 100%; max-width: 600px;">
+        <img src="images/hh3.png" alt="Скриншот 3" style="width: 100%; max-width: 600px;">
+        <img src="images/hh4.png" alt="Скриншот 4" style="width: 100%; max-width: 600px;">
+        <img src="images/hh5.png" alt="Скриншот 5" style="width: 100%; max-width: 600px;">
+        <img src="images/hh6.png" alt="Скриншот 6" style="width: 100%; max-width: 600px;">
+    </div>
+</div>
 
-    <section id="projects" class="projects">
-        <h2>Остальные проекты</h2>
-        <div class="project-grid">
-
-        	<a href="https://nemokaim.github.io/MetroAlmaty/">
-            <div class="project-card">
-                <img src="https://images.unsplash.com/photo-1614732414444-096e5f1122d5?auto=format&fit=crop&q=80&w=1200" alt="Space Explorer">
-                <div class="project-info">
-                    <h3>Таймер Метро Алматы</h3>
-                    <p>Онлайн Таймер метро города Алматы</p>
-                    <div class="tags">
-                        <span>HTML</span>
-                        <span>CSS</span>
-                        <span>Java Script</span>
-                    </div>
-                </div>
-            </div>
-        	</a>
-
-  
-        </div>
-    </section>
+<div class="project" onclick="toggleProject(this)">
+    <img src="images/ff1.jpg" alt="Heretic" />
+    <div class="project-info">
+        <h2>AAF - игра про аналоговый хоррор магнитошахтинская область (прототип)</h2>
+        <p></p>
+    </div>
+    <div class="project-details">
+        <h4>Дополнительные скриншоты:</h4>
+        <img src="images/ff1.jpg" alt="Скриншот 1" style="width: 100%; max-width: 600px;">
+        <img src="images/ff2.jpg" alt="Скриншот 2" style="width: 100%; max-width: 600px;">
+        <img src="images/ff3.jpg" alt="Скриншот 3" style="width: 100%; max-width: 600px;">
+    </div>
+</div>
 
 
 
-    <section id="skills" class="skills">
-        <h2>Technical Skills</h2>
-        <div class="skills-grid">
-            <div class="skill">Unity</div>
-            <div class="skill">C#</div>
-            <div class="skill">Game Design</div>
-            <div class="skill">HTML</div>
-            <div class="skill">CSS</div>
-        </div>
-    </section>
+<div class="project" onclick="toggleProject(this)">
+    <img src="images/tt1.jpg" alt="Heretic" />
+    <div class="project-info">
+        <h2>Meowryhead</h2>
+        <p>Сюжетная игра про поиск котов (поинт клик игра)</p>
+    </div>
+    <div class="project-details">
+        <h4>Дополнительные скриншоты:</h4>
+        <img src="images/tt1.jpg" alt="Скриншот 1" style="width: 100%; max-width: 600px;">
+        <img src="images/tt2.jpg" alt="Скриншот 2" style="width: 100%; max-width: 600px;">
+    </div>
+</div>
 
-    <section id="contact" class="contact">
-        <h2>Contact</h2>
-        <div class="contact-links">
-            <a href="mailto:vtbyyubt@gmail.com" class="contact-button">Gmail</a>
-            <a href="https://github.com/NemoKaim" class="contact-button">GitHub</a>
-            <a href="https://t.me/Chheeeert" class="contact-button">Telegram</a>
-        </div>
-    </section>
+
+<div class="project" onclick="toggleProject(this)">
+    <img src="images/cc1.png" alt="КП" />
+    <div class="project-info">
+        <h2>Программа для расчёт КП (Локальный проект для компании)</h2>
+        <p>Составление а также выгрузка КП в Excel и PDF формат. C#. TCP. MySQL</p>
+    </div>
+    <div class="project-details">
+        <h4>Дополнительные скриншоты:</h4>
+        <img src="images/cc1.png" alt="Скриншот 1" style="width: 100%; max-width: 600px;">
+        <img src="images/cc2.png" alt="Скриншот 2" style="width: 100%; max-width: 600px;">
+        <img src="images/cc3.png" alt="Скриншот 3" style="width: 100%; max-width: 600px;">
+    </div>
+</div>
+
+
+        
+
+        <!-- Добавляй сюда новые проекты по образцу -->
+    </main>
 
     <footer>
-        <p>© 2024</p>
+        <p>© 2025 Ларин Никита.</p>
     </footer>
+
+
+	<script src="js/script.js"></script>
 </body>
 </html>
