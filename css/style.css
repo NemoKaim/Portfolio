@@ -4,6 +4,27 @@
   margin: 0; padding: 0;
 }
 
+.about-me-fixed {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 280px;
+    background-color: #2e3a59;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    font-size: 14px;
+    z-index: 1000;
+    opacity: 0.95;
+    transition: opacity 0.3s ease;
+}
+
+.about-me-fixed:hover {
+    opacity: 1;
+}
+
+
 html{
 	font-family: Roboto,sans-serif;
 }
